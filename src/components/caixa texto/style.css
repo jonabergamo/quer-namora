@@ -1,0 +1,32 @@
+.botaoTexto{
+    --heigh: 70px;
+    --width: 150px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--heigh);
+    width: var(--width);
+
+}
+
+.box-texto{
+    
+    height: 70px;
+    width: 150px;
+    background-color: red;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.box-texto h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
